@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main-greenbox">
+        <h1>Movie</h1>
+    </div>
+    <div class="buttonsforfilter">
+        <button id="btnNowPlaying">Now Playing </button>
+        <button id="btnComingSoon">Coming Soon</button>
+        <button id="btnAZ">A-Z</button>
+    </div>
+    <div class="gray-box">
+
+        <!--<input type="text" name="name" class="search-box" placeholder="search" requird>-->
+
+        <input type="text" name="search" id="search" placeholder="Search" /><i class="far fa-search"
+            aria-hidden="true"></i>
+    </div>
+    <div id="movieList"></div>
+    <div class="preloaderContainer">
+        <img id="loader" src="animated-web-preloader.gif" width="100px" height="100px"/>
+    </div>
+    <footer class="navigatingButtons">
+        <button class="movies style"><a href="http://127.0.0.1:8080/movie.html"></a>Movies
+        </button>
+        <button class="trailers style">
+            <div><i class="fa fa-film" aria-hidden="true"></i></div>Trailers
+        </button>
+        <button class="myAccount style">
+            <div><i class="fa fa-user" aria-hidden="true"></i></div>My Account
+        </button>
+        <button class="about style">About</button>
+    </footer>
+    <!-- <script src="main.js"></script>-->
+    <script src="jq.js"></script>
+</body>
